@@ -15,5 +15,4 @@ def placeQueen(Q,r):
                 Q[r]=j
                 placeQueen(Q,r+1)
 
-
 placeQueen(Q,r)
